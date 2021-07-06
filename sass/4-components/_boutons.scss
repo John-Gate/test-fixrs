@@ -1,0 +1,17 @@
+.wp-block-button{
+  background: $--unnamed-color-f7a400 0% 0% no-repeat padding-box;
+    background: #F7A400 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width: auto;
+    white-space:nowrap;
+    text-align: center;
+  &__link{
+    text-transform: uppercase;
+    width: auto;
+    height: 48px;
+    background: $--unnamed-color-f7a400 0% 0% no-repeat padding-box;
+    font: $--unnamed-font-style-normal normal $--unnamed-font-weight-bold $--unnamed-font-size-14/$--unnamed-line-spacing-30 $--unnamed-font-family-montserrat;
+    text-align: center;
+    letter-spacing: 0.7px;
+  }
+}

@@ -1,0 +1,25 @@
+// devrait resembler a ca 
+//1-base
+// @import '1-base/typography';
+ //@import '1-base/resets';
+
+// // 2-helper
+ @import '2-helper/_varibles.scss';
+// @import '2-helper/mixins';
+
+// //3-layout
+// @import '3-layout/header';
+@import '3-layout/footer';
+@import '3-layout/inscription';
+@import '3-layout/main-menu';
+@import '3-layout/vignettes';
+@import '3-layout/navbar';
+
+
+// //4-components
+// @import '4-components/preloader';
+ @import '4-components/boutons';
+
+// //5-pages
+// @import '5-pages/home';
+// @import '5-pages/secondary';

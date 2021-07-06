@@ -1,0 +1,13 @@
+{
+  "name": "Test_Fixrs",
+  "version": "1.0.0",
+  "description": "Test pour FIXRS.CA",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./dist/css/style.css -w --style compressed",
+    "prefix": "postcss ./dist/css/style.css --use autoprefixer -d. /dist/css/style.css/prefixed/"
+  },
+  "keywords": [],
+  "author": "jean christian barriere",
+  "license": "ISC"
+}

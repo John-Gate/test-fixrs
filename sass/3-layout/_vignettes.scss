@@ -1,0 +1,14 @@
+.container>*{
+  padding-bottom: 5rem;
+}
+
+.wp-block-media-text.is-vertically-aligned-center .wp-block-media-text__content, .wp-block-media-text.is-vertically-aligned-center .wp-block-media-text__media, .wp-block-media-text .wp-block-media-text__content, .wp-block-media-text .wp-block-media-text__media{
+  align-self: none;
+}
+#text-align-center--vignettes{
+  align-self: flex-start;
+  &>h3{
+    margin-top: 0;
+    color: $--unnamed-color-153157;
+  }
+}
